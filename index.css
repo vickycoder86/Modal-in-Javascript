@@ -41,7 +41,10 @@
   top: 50%;
 }
 .register {
-  padding: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: rgb(107, 106, 106);
+
 }
 input {
   width: 200px;
