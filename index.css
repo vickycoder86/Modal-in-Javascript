@@ -6,7 +6,8 @@
 .modal {
   width: 350px;
   height: 350px;
-  top: -500px;
+  /* this top:-500px will hide the modal */
+  top: -500px; 
   left: 50%;
   position: fixed;
   box-shadow: 0px 0px 10px 2px #ccc;
@@ -38,6 +39,7 @@
   cursor: pointer;
 }
 .showmodal {
+    /* this top:50% will show the modal */
   top: 50%;
 }
 .register {
